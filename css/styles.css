@@ -1,22 +1,48 @@
-h1{
+h1 {
   margin-top: 0;
+  font-family: 'Sacramento', cursive;
 }
-body{
+
+body {
   margin: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.top-container{
-  background-color: #eaffd0;
+h2 {
+  font-family: 'Roboto', sans-serif;
 }
 
-.middle-container{
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.top-container {
+  background-color: #71c9ce;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
   background-color: red;
   height: 200px;
   width: 200px;
 }
 
-.bottom-container{
+.bottom-container {
   background-color: blue;
   height: 200px;
   width: 200px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 350px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 350px;
 }
