@@ -1,60 +1,160 @@
 h1 {
-  margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
-  font-size: 5.625rem;
-  color: #66BFBF;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66bfbf;
 }
 
 body {
-  margin: 0;
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #40514e;
+    font-size: 1.25rem;
 }
 
 h2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 2.5rem;
-  color: #66BFBF;
+    font-family: '</div>Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
 }
 
 h3 {
-  font-family: 'Roboto', sans-serif;
-  color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    font-weight: bolder;
 }
 
-a{
-  color: #11999E;
+hr {
+    border-style: dotted none none;
+    border-color: #eaf6f6;
+    border-width: 10px;
+    width: 5%;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eaf6f6;
 }
 
 .top-container {
-  background-color: #e4f9f5;
-  position: relative;
-  padding-top: 100px;
+    background-color: #eaf6f6;
+    position: relative;
+    padding-top: 100px;
 }
 
-.Web-Developer{
-  font-weight: normal;
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 75px 0;
+}
+
+.Web-Developer {
+    font-weight: normal;
+}
+
+.profile {
+    width: 30%;
+    margin: 50px auto 50px auto;
+    line-height: 2;
 }
 
 .bottom-cloud {
-  position: absolute;
-  bottom: 300px;
-  left: 350px;
+    position: absolute;
+    bottom: 300px;
+    left: 250px;
+}
+
+.skill-row {
+    width: 50%;
+    text-align: left;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+}
+
+.contact-me {
+    line-height: 3;
+    margin: 100px auto 100px auto;
 }
 
 .top-cloud {
-  position: absolute;
-  top: 50px;
-  right: 350px;
+    position: absolute;
+    top: 50px;
+    right: 350px;
 }
 
 .profile-image {
-  height: 300px;
-  width: 300px;
-  margin-top: 10px;
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
 }
 
-.skill2-icon {
-  height: 300px;
-  width: 300px;
+.skill-icon {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    bottom: 30px;
+}
+
+.skill-icon-football {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.BUTTON_CID {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 12.5px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 0 25px 0 25px;
+    background-color: #66BFBF;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    border: 0;
+}
+
+.BUTTON_CID:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.button {
+    padding-top: 25px;
+}
+
+.footer-link {
+    padding: 50px;
+}
+
+.Copyright {
+    color: #eaf6f6;
+    line-height: 2;
+    padding: 75px 0 0 0;
+    font-size: 1rem;
 }
